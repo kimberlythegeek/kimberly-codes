@@ -8,6 +8,10 @@ h1 {
   font-size: 10rem;
   font-weight: 700; }
 
+/* line 11, scss/typography/_typography.scss */
+code {
+  font-size: 100%; }
+
 /* line 3, scss/colors/_colors.scss */
 body {
   background: #4db8ff; }
@@ -17,17 +21,21 @@ h1, h2, h3, h4, h5, h6 {
   color: white; }
 
 /* line 9, scss/colors/_colors.scss */
+a {
+  color: #FF6766; }
+
+/* line 12, scss/colors/_colors.scss */
+a:hover {
+  color: #4DB8FF; }
+
+/* line 15, scss/colors/_colors.scss */
 code {
   color: #CCCB29;
   background-color: rgba(255, 255, 255, 0.05); }
 
-/* line 14, scss/colors/_colors.scss */
+/* line 20, scss/colors/_colors.scss */
 .code {
   background: #1B5C87; }
-
-/* line 17, scss/colors/_colors.scss */
-.symbol {
-  color: lightgrey; }
 
 /* line 3, scss/layout/_layout.scss */
 .code {

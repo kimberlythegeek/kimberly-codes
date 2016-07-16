@@ -6,6 +6,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: $color__site-headers;
 }
+a {
+  color: $color__links;
+}
+  a:hover {
+    color: $color__links-hover;
+  }
 code {
   color: $color__code-text;
   background-color: rgba(255,255,255,0.05);;
@@ -13,7 +19,4 @@ code {
 
 .code {
   background: $color__code-background;
-}
-.symbol {
-  color: $color__code-symbols;
 }

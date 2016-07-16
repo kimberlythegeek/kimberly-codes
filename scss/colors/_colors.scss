@@ -1,1 +1,19 @@
 @import 'variables/color-scheme';
+
+body {
+  background: $color__site-background;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $color__site-headers;
+}
+code {
+  color: $color__code-text;
+  background-color: rgba(255,255,255,0.05);;
+}
+
+.code {
+  background: $color__code-background;
+}
+.symbol {
+  color: $color__code-symbols;
+}

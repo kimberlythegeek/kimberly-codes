@@ -147,11 +147,8 @@ li {
     font-size: 150%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {
   /* line 7, scss/media-queries/_pixel-density-3.scss */
-  pre {
-    font-size: 200%; }
-
-  /* line 10, scss/media-queries/_pixel-density-3.scss */
   .code {
+    font-size: 200%;
     width: 100%;
     margin-left: 0; } }
 

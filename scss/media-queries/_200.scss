@@ -5,7 +5,13 @@
   .title {
     margin-top: 3rem;
   }
-  .code {
+  .body {
     margin-top: 4rem;
+  }
+  .code ul {
+    display: inline-block;
+  }
+  #key {
+    min-width: 14rem;
   }
 }

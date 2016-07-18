@@ -1,5 +1,27 @@
 @import 'header';
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-right: 10px;
+}
 .code {
-  padding: 2rem;
+  line-height: 24px;
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  border-radius: 4px;
+}
+  .code .row {
+    margin: auto;
+  }
+#key, #pair {
+  float: left;
+}
+#key {
+  min-width: 14rem;
+  padding-left: 2rem;
 }

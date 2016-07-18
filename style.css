@@ -9,8 +9,9 @@ h1 {
   font-weight: 700; }
 
 /* line 11, scss/typography/_typography.scss */
-code {
-  font-size: 100%; }
+.code {
+  font-size: 90%;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace; }
 
 /* line 3, scss/colors/_colors.scss */
 body {
@@ -29,17 +30,41 @@ a:hover {
   color: #4DB8FF; }
 
 /* line 15, scss/colors/_colors.scss */
-code {
-  color: #CCCB29;
-  background-color: rgba(255, 255, 255, 0.05); }
-
-/* line 20, scss/colors/_colors.scss */
 .code {
-  background: #1B5C87; }
+  color: #CCCB29;
+  background: #1B5C87;
+  border: 1px solid #ccc; }
 
 /* line 3, scss/layout/_layout.scss */
+ul {
+  list-style: none;
+  padding: 0; }
+
+/* line 7, scss/layout/_layout.scss */
+li {
+  padding-right: 10px; }
+
+/* line 10, scss/layout/_layout.scss */
 .code {
-  padding: 2rem; }
+  line-height: 24px;
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  border-radius: 4px; }
+
+/* line 18, scss/layout/_layout.scss */
+.code .row {
+  margin: auto; }
+
+/* line 21, scss/layout/_layout.scss */
+#key, #pair {
+  float: left; }
+
+/* line 24, scss/layout/_layout.scss */
+#key {
+  min-width: 14rem;
+  padding-left: 2rem; }
 
 @media (min-width: 200px) {
   /* line 2, scss/media-queries/_200.scss */
@@ -51,8 +76,16 @@ code {
     margin-top: 3rem; }
 
   /* line 8, scss/media-queries/_200.scss */
-  .code {
-    margin-top: 4rem; } }
+  .body {
+    margin-top: 4rem; }
+
+  /* line 11, scss/media-queries/_200.scss */
+  .code ul {
+    display: inline-block; }
+
+  /* line 14, scss/media-queries/_200.scss */
+  #key {
+    min-width: 14rem; } }
 @media (min-width: 720px) {
   /* line 2, scss/media-queries/_720.scss */
   h1 {
@@ -63,8 +96,13 @@ code {
     margin-top: 6rem; }
 
   /* line 8, scss/media-queries/_720.scss */
-  .code {
-    margin-top: 6rem; } }
+  .body {
+    font-size: 100%;
+    margin-top: 6rem; }
+
+  /* line 12, scss/media-queries/_720.scss */
+  .code ul {
+    display: inline-flex; } }
 @media (min-width: 1200px) {
   /* line 2, scss/media-queries/_1200.scss */
   h1 {
@@ -75,8 +113,22 @@ code {
     margin-top: 8rem; }
 
   /* line 8, scss/media-queries/_1200.scss */
-  .code {
-    margin-top: 10rem; } }
+  .body {
+    font-size: 120%;
+    margin-top: 10rem; }
+
+  /* line 12, scss/media-queries/_1200.scss */
+  .col-lg-10 {
+    max-width: 100rem;
+    float: none; }
+
+  /* line 16, scss/media-queries/_1200.scss */
+  .col-lg-offset-1 {
+    margin: auto; }
+
+  /* line 19, scss/media-queries/_1200.scss */
+  .code ul {
+    display: inline-flex; } }
 @media (min-width: 1600px) {
   /* line 2, scss/media-queries/_1600.scss */
   h1 {
@@ -87,7 +139,20 @@ code {
     margin-top: 10rem; }
 
   /* line 8, scss/media-queries/_1600.scss */
+  .body {
+    margin-top: 16rem; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 8, scss/media-queries/_pixel-density-2.scss */
+  pre {
+    font-size: 150%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {
+  /* line 7, scss/media-queries/_pixel-density-3.scss */
+  pre {
+    font-size: 200%; }
+
+  /* line 10, scss/media-queries/_pixel-density-3.scss */
   .code {
-    font-size: 120%; } }
+    width: 100%;
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

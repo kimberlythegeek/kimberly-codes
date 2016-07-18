@@ -5,7 +5,11 @@
   .title {
     margin-top: 6rem;
   }
-  .code {
+  .body {
+    font-size: 100%;
     margin-top: 6rem;
+  }
+  .code ul {
+    display: inline-flex;
   }
 }

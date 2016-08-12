@@ -9,8 +9,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $color__links;
 }
-  a:hover {
+  a:hover, a:focus {
     color: $color__links-hover;
+  }
+.code a {
+  color: $color__code-links;
+}
+  .code a:hover {
+    color: $color__code-links-hover;
   }
 .code {
   color: $color__code-text;

@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 h1 {
@@ -11,4 +10,21 @@ h1 {
 .code {
   font-size: 90%;
   font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.navigation {
+  font-weight: bold;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+  .navigation a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+#exit {
+  font-family: FontAwesome;
+  content: '\f057';
+  color: white;
+  font-size: 2rem;
+}
+iframe {
+  font-size: 60%;
 }

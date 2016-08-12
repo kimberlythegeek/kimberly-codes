@@ -58,7 +58,22 @@ li {
 
 iframe {
   width: 100%;
-  height: 70rem; }
+  margin-bottom: 4rem; }
+
+.pomodoro {
+  height: 135rem; }
+
+.javascript-calculator {
+  height: 65rem; }
+
+.wiki-app {
+  height: 80rem; }
+
+.weather-app {
+  height: 60rem; }
+
+.quote-generator {
+  height: 80rem; }
 
 .code {
   line-height: 24px;

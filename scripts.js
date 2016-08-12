@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   $('.navigation li a').on('click', function(){
 		$('#frame').removeClass('hidden');
-    $('#frame').html(exit + '<iframe src="http://kimberly.codes/FreeCodeCamp/' + this.id + '"></iframe>');
+    $('#frame').html(exit + '<iframe class="' + this.id + '" src="http://localhost/FreeCodeCamp/' + this.id + '"></iframe>');
     setIframeHeight(document.getElementById('#frame'));
 
 		$('#exit').on('click', function(){

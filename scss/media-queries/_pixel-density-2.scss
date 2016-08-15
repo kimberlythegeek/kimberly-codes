@@ -5,16 +5,16 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-  pre {
-    font-size: 150%;
-  }
-  .navigation {
-    position: initial;
-    text-align: center;
-  }
-  .navbar li {
-    padding: 1rem;
-    width: 20%;
-    float: left;
-  }
+  // pre {
+  //   font-size: 150%;
+  // }
+  // .navigation {
+  //   position: initial;
+  //   text-align: center;
+  // }
+  // .navbar li {
+  //   padding: 1rem;
+  //   width: 20%;
+  //   float: left;
+  // }
 }

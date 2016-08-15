@@ -11,6 +11,14 @@ iframe {
   width: 100%;
   margin-bottom: 4rem;
 }
+
+.photo {
+  height: 30rem;
+  background: $img__profile;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
 #frame {
   margin-top: 4rem;
 }
@@ -37,6 +45,7 @@ iframe {
   word-break: break-all;
   word-wrap: break-word;
   border-radius: 4px;
+  margin-bottom: 4rem;
 }
   .code .row {
     margin: auto;
@@ -51,7 +60,7 @@ iframe {
 .navigation {
   position: absolute;
   left: 0;
-  top: 33%;
+  top: 20%;
   text-align: center;
 }
 .navbar {

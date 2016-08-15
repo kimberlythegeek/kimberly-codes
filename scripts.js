@@ -9,11 +9,11 @@ function setIframeHeight(iframe) {
 
 $(document).ready(function(){
 
-  var exit = '<div id="exit"><i class="fa fa-times-circle" aria-hidden="true"></i></div>';
+  var exit = '<div class="row"><div id="exit"><i class="fa fa-times-circle" aria-hidden="true"></i></div></div><!-- .row -->';
 
   $('.navigation li a').on('click', function(){
 		$('#frame').removeClass('hidden');
-    $('#frame').html(exit + '<iframe class="' + this.id + '" src="http://localhost/FreeCodeCamp/' + this.id + '"></iframe>');
+    $('#frame').html(exit + '<div class="row"><iframe class="' + this.id + '" src="http://localhost/FreeCodeCamp/' + this.id + '"></iframe></div><!-- .row -->');
     setIframeHeight(document.getElementById('#frame'));
 
 		$('#exit').on('click', function(){

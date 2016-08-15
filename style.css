@@ -60,6 +60,13 @@ iframe {
   width: 100%;
   margin-bottom: 4rem; }
 
+.photo {
+  height: 30rem;
+  background: url("img/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; }
+
 #frame {
   margin-top: 4rem; }
 
@@ -84,7 +91,8 @@ iframe {
   padding: 9.5px;
   word-break: break-all;
   word-wrap: break-word;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-bottom: 4rem; }
 
 .code .row {
   margin: auto; }
@@ -99,7 +107,7 @@ iframe {
 .navigation {
   position: absolute;
   left: 0;
-  top: 33%;
+  top: 20%;
   text-align: center; }
 
 .navbar {
@@ -126,6 +134,16 @@ iframe {
   .title {
     margin-top: 3rem; }
 
+  .navigation {
+    position: relative; }
+
+  .navbar {
+    position: relative;
+    width: 100%; }
+
+  #photo {
+    display: none; }
+
   .body {
     margin-top: 4rem; }
 
@@ -133,7 +151,23 @@ iframe {
     display: inline-block; }
 
   #key {
-    min-width: 14rem; } }
+    min-width: 14rem; }
+
+  #frame {
+    width: 95%;
+    margin: auto; }
+
+  .pomodoro {
+    height: 166rem; }
+
+  .javascript-calculator {
+    height: 70rem; } }
+@media (min-width: 480px) {
+  .pomodoro {
+    height: 146rem; }
+
+  .javascript-calculator {
+    height: 65rem; } }
 @media (min-width: 720px) {
   h1 {
     font-size: 8rem; }
@@ -143,7 +177,55 @@ iframe {
 
   .body {
     font-size: 100%;
-    margin-top: 6rem; } }
+    margin-top: 6rem; }
+
+  .code {
+    max-width: 72rem;
+    float: none;
+    margin: auto;
+    margin-bottom: 4rem; }
+
+  .code ul {
+    display: inline-flex; }
+
+  .navbar {
+    display: inline-flex; }
+
+  .navbar li {
+    width: 20%; } }
+@media (min-width: 980px) {
+  .code {
+    width: 72%;
+    max-width: none;
+    float: right;
+    margin-right: 2rem; }
+
+  .navigation {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    text-align: center; }
+
+  .navbar {
+    width: 20rem;
+    margin-left: 1rem;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    float: left; }
+
+  .navbar li {
+    width: 100%; }
+
+  #photo {
+    display: block; }
+
+  iframe {
+    width: 75%;
+    float: right; }
+
+  #frame {
+    padding-right: 2rem; } }
 @media (min-width: 1200px) {
   h1 {
     font-size: 10rem; }
@@ -152,18 +234,24 @@ iframe {
     margin-top: 8rem; }
 
   .body {
-    font-size: 120%;
     margin-top: 10rem; }
 
-  .col-lg-10 {
-    max-width: 100rem;
-    float: none; }
+  .code {
+    width: 90rem;
+    margin-right: 4rem; }
 
-  .col-lg-offset-1 {
+  iframe {
+    width: 90rem; } }
+@media (min-width: 1400px) {
+  #frame,
+  .code {
+    width: 75rem;
+    float: none;
     margin: auto; }
 
-  .code ul {
-    display: inline-flex; } }
+  iframe {
+    width: 100%;
+    float: none; } }
 @media (min-width: 1600px) {
   h1 {
     font-size: 12rem; }
@@ -188,6 +276,7 @@ iframe {
 @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {
   .code {
     font-size: 200%;
+    line-height: 150%;
     width: 100%;
     margin-left: 0; }
 

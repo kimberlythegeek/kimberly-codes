@@ -6,6 +6,7 @@ only screen and (        min-device-pixel-ratio: 3),
 only screen and (                min-resolution: 3dppx) {
   .code {
     font-size: 200%;
+    line-height: 150%;
     width: 100%;
     margin-left: 0;
   }

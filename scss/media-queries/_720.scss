@@ -9,7 +9,19 @@
     font-size: 100%;
     margin-top: 6rem;
   }
-  .code ul {
-    //display: inline-flex;
+  .code {
+    max-width: 72rem;
+    float: none;
+    margin: auto;
+    margin-bottom: 4rem;
   }
+    .code ul {
+      display: inline-flex;
+    }
+  .navbar {
+    display: inline-flex;
+  }
+    .navbar li {
+      width: 20%;
+    }
 }

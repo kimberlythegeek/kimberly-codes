@@ -6,17 +6,13 @@
     margin-top: 8rem;
   }
   .body {
-    font-size: 120%;
     margin-top: 10rem;
   }
-  .col-lg-10 {
-    max-width: 100rem;
-    float: none;
+  .code {
+    width: 90rem;
+    margin-right: 4rem;
   }
-  .col-lg-offset-1 {
-    margin: auto;
-  }
-  .code ul {
-    display: inline-flex;
+  iframe {
+    width: 90rem;
   }
 }

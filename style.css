@@ -67,6 +67,19 @@ iframe {
   background-position: center center;
   background-size: contain; }
 
+.logo {
+  height: 14rem;
+  background: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; }
+
+.logo:hover {
+  background: url("img/logo-light.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; }
+
 #frame {
   margin-top: 4rem; }
 
@@ -84,6 +97,9 @@ iframe {
 
 .quote-generator {
   height: 83rem; }
+
+.twitch {
+  height: 80rem; }
 
 .code {
   line-height: 24px;
@@ -107,7 +123,7 @@ iframe {
 .navigation {
   position: absolute;
   left: 0;
-  top: 20%;
+  top: 10%;
   text-align: center; }
 
 .navbar {
@@ -141,7 +157,8 @@ iframe {
     position: relative;
     width: 100%; }
 
-  #photo {
+  #photo,
+  #logo {
     display: none; }
 
   .body {
@@ -217,7 +234,8 @@ iframe {
   .navbar li {
     width: 100%; }
 
-  #photo {
+  #photo,
+  #logo {
     display: block; }
 
   iframe {
@@ -251,7 +269,10 @@ iframe {
 
   iframe {
     width: 100%;
-    float: none; } }
+    float: none; }
+
+  .navbar {
+    margin-left: 5%; } }
 @media (min-width: 1600px) {
   h1 {
     font-size: 12rem; }

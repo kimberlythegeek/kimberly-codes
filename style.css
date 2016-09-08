@@ -75,7 +75,7 @@ iframe {
   background-size: contain; }
 
 .logo:hover {
-  background: url("img/logo-light.png");
+  background: url("img/logo-hover.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain; }

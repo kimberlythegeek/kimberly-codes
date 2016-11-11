@@ -9,8 +9,7 @@
     <script src="https://use.fontawesome.com/e1862a0f00.js"></script>
     <script src="scripts.js"></script>
 
-    <!-- <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"> -->
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <title> < kimberly /> </title>
     <meta name="developer portfolio" content="kimberly.codes | Kimberly Pennington | Web Designer and Developer Portfolio" />

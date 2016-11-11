@@ -81,14 +81,14 @@ footer {
   position: absolute;
   bottom: 0; }
 
-.footer-nav ul {
+ul.footer-nav {
   padding: 0;
   max-width: 500px;
   margin: auto; }
 
 .footer-nav li {
   display: inline-block;
-  width: 19%; }
+  width: 16%; }
 
 @media (min-width: 200px) {
   .intro-content {

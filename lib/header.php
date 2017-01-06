@@ -9,6 +9,8 @@
     <script src="https://use.fontawesome.com/e1862a0f00.js"></script>
     <script src="scripts.js"></script>
 
+    <?php include_once("analytics.php") ?>
+
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <title> < kimberly /> </title>

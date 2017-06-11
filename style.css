@@ -1,298 +1,162 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace; }
+.intro-content {
+  text-align: center;
+  line-height: 10rem; }
 
-h1 {
-  font-size: 10rem;
-  font-weight: 700; }
+.intro-content div {
+  font-size: 8rem; }
 
-.code {
-  font-size: 90%;
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace; }
+.intro-content div:nth-child(1) {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 10rem; }
 
-.navigation {
+.intro-content div:nth-child(2) {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 900;
+  letter-spacing: 10px;
+  font-size: 9.4rem; }
+
+.intro-content div:nth-child(3) {
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace; }
+  font-size: 10rem;
+  letter-spacing: 3px; }
 
-.navigation a:hover {
-  text-decoration: none;
-  cursor: pointer; }
+.intro-content div:nth-child(4) {
+  font-family: 'Fredericka the Great', cursive;
+  letter-spacing: 9px; }
 
-#exit {
-  font-family: FontAwesome;
-  content: '\f057';
-  color: white;
-  font-size: 2rem; }
-
-iframe {
-  font-size: 60%; }
-
-body {
-  background: #4db8ff; }
-
-h1, h2, h3, h4, h5, h6 {
-  color: white; }
+.intro-content div:nth-child(5) {
+  font-family: 'Great Vibes', cursive;
+  font-size: 15rem;
+  line-height: 20rem; }
 
 a {
-  color: yellow; }
+  text-decoration: none; }
 
-a:hover, a:focus {
-  color: #1B5C87; }
+a:hover, a:focus, a:active {
+  text-decoration: none; }
 
-.code a {
-  color: #FF6766; }
+ul.footer-nav {
+  list-style: none; }
 
-.code a:hover {
-  color: #4DB8FF; }
+.footer-nav li {
+  display: inline; }
 
-.code {
-  color: #CCCB29;
-  background: #1B5C87;
-  border: 1px solid #ccc; }
-
-ul {
-  list-style: none;
-  padding: 0; }
-
-li {
-  padding-right: 10px; }
-
-iframe {
-  width: 100%;
-  margin-bottom: 4rem; }
-
-.photo {
-  height: 30rem;
-  background: url("img/profile.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; }
-
-.logo {
-  height: 14rem;
-  background: url("img/logo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; }
-
-.logo:hover {
-  background: url("img/logo-hover.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; }
-
-#frame {
-  margin-top: 4rem; }
-
-.pomodoro {
-  height: 135rem; }
-
-.javascript-calculator {
-  height: 65rem; }
-
-.wiki-app {
-  height: 80rem; }
-
-.weather-app {
-  height: 68rem; }
-
-.quote-generator {
-  height: 83rem; }
-
-.twitch {
-  height: 80rem; }
-
-.code {
-  line-height: 24px;
-  display: block;
-  padding: 9.5px;
-  word-break: break-all;
-  word-wrap: break-word;
-  border-radius: 4px;
-  margin-bottom: 4rem; }
-
-.code .row {
-  margin: auto; }
-
-#key, #pair {
-  float: left; }
-
-#key {
-  min-width: 14rem;
-  padding-left: 2rem; }
-
-.navigation {
-  position: absolute;
-  left: 0;
-  top: 0;
+footer {
+  font-size: 2rem;
   text-align: center; }
 
-.navbar {
-  position: fixed;
-  display: block;
-  z-index: 100;
-  float: left;
-  width: 20%; }
+footer .fa {
+  font-size: 3rem; }
 
-.navbar li {
-  padding: 1rem; }
+body {
+  background: #1b1a1a; }
 
-#exit {
-  float: right;
-  padding-bottom: 1rem; }
+.intro-content div:nth-child(1) {
+  color: #FFD400; }
 
-#exit:hover {
-  color: #1B5C87; }
+.intro-content div:nth-child(2) {
+  color: #541388; }
+
+.intro-content div:nth-child(3) {
+  color: #D90368; }
+
+.intro-content div:nth-child(4) {
+  color: #F1E9DA; }
+
+.intro-content div:nth-child(5) {
+  color: #FFD400; }
+
+.footer-nav a {
+  color: #F1E9DA; }
+
+.footer-nav a:hover, .footer-nav a:focus, .footer-nav a:active {
+  color: #FFD400; }
+
+.intro-content {
+  margin-top: 10rem; }
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+
+ul.footer-nav {
+  padding: 0;
+  max-width: 500px;
+  margin: auto; }
+
+.footer-nav li {
+  display: inline-block;
+  width: 12%; }
 
 @media (min-width: 200px) {
-  h1 {
-    font-size: 4.8rem; }
+  .intro-content {
+    line-height: 6rem; }
 
-  .title {
-    margin-top: 3rem; }
+  .intro-content div:nth-child(1) {
+    font-size: 5.45rem; }
 
-  .navigation {
-    position: relative; }
+  .intro-content div:nth-child(2) {
+    font-size: 6rem;
+    letter-spacing: 1.5px; }
 
-  .navbar {
-    position: relative;
-    width: 100%; }
+  .intro-content div:nth-child(3) {
+    font-size: 5.5rem;
+    letter-spacing: 3.5px; }
 
-  #photo,
-  #logo {
-    display: none; }
+  .intro-content div:nth-child(4) {
+    letter-spacing: -2px;
+    font-size: 5.5rem; }
 
-  .body {
-    margin-top: 4rem; }
+  .intro-content div:nth-child(5) {
+    font-size: 10rem;
+    line-height: 13rem; } }
+@media (min-width: 769px) {
+  .intro-content {
+    line-height: 10rem; }
 
-  .code ul {
-    display: inline-block; }
+  .intro-content div:nth-child(1) {
+    font-size: 8rem;
+    letter-spacing: 0.75px; }
 
-  #key {
-    min-width: 14rem; }
+  .intro-content div:nth-child(2) {
+    font-size: 9rem;
+    letter-spacing: 2px; }
 
-  #frame {
-    width: 95%;
-    margin: auto; }
+  .intro-content div:nth-child(3) {
+    font-size: 8rem;
+    letter-spacing: 5.2px; }
 
-  .pomodoro {
-    height: 166rem; }
+  .intro-content div:nth-child(4) {
+    letter-spacing: 2px;
+    font-size: 7.2rem; }
 
-  .javascript-calculator {
-    height: 70rem; } }
-@media (min-width: 480px) {
-  .pomodoro {
-    height: 146rem; }
-
-  .javascript-calculator {
-    height: 65rem; } }
-@media (min-width: 720px) {
-  h1 {
+  .intro-content div:nth-child(5) {
+    font-size: 15rem;
+    line-height: 20rem; } }
+@media (min-width: 980px) {
+  .intro-content div {
     font-size: 8rem; }
 
-  .title {
-    margin-top: 6rem; }
+  .intro-content div:nth-child(1) {
+    font-size: 9.9rem;
+    letter-spacing: 0.25px; }
 
-  .body {
-    font-size: 100%;
-    margin-top: 6rem; }
+  .intro-content div:nth-child(2) {
+    letter-spacing: 10px;
+    font-size: 9.4rem; }
 
-  .code {
-    max-width: 72rem;
-    float: none;
-    margin: auto;
-    margin-bottom: 4rem; }
+  .intro-content div:nth-child(3) {
+    font-size: 10rem;
+    letter-spacing: 5.5px; }
 
-  .code ul {
-    display: inline-flex; }
+  .intro-content div:nth-child(4) {
+    letter-spacing: 3px;
+    font-size: 9rem; }
 
-  .navbar {
-    display: inline-flex; }
-
-  .navbar li {
-    width: 20%; } }
-@media (min-width: 980px) {
-  .code {
-    width: 72%;
-    max-width: none;
-    float: right;
-    margin-right: 2rem; }
-
-  .navigation {
-    position: absolute;
-    left: 0;
-    top: 0;
-    text-align: center; }
-
-  .navbar {
-    width: 20rem;
-    margin-left: 1rem;
-    position: fixed;
-    display: block;
-    z-index: 100;
-    float: left; }
-
-  .navbar li {
-    width: 100%; }
-
-  #photo,
-  #logo {
-    display: block; }
-
-  iframe {
-    width: 75%;
-    float: right; }
-
-  #frame {
-    padding-right: 2rem; } }
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 10rem; }
-
-  .title {
-    margin-top: 8rem; }
-
-  .body {
-    margin-top: 10rem; }
-
-  .code {
-    width: 90rem;
-    margin-right: 4rem; }
-
-  iframe {
-    width: 90rem; } }
-@media (min-width: 1400px) {
-  #frame,
-  .code {
-    width: 75rem;
-    float: none;
-    margin: auto; }
-
-  iframe {
-    width: 100%;
-    float: none; }
-
-  .navbar {
-    margin-left: 5%; } }
-@media (min-width: 1600px) {
-  h1 {
-    font-size: 12rem; }
-
-  .title {
-    margin-top: 10rem; }
-
-  .body {
-    margin-top: 16rem; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .code {
-    width: 75%; }
-
-  iframe {
-    width: 77%; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3 / 1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 3dppx) {
-  .code {
-    width: 75%; }
-
-  iframe {
-    width: 77%; } }
+  .intro-content div:nth-child(5) {
+    font-size: 15rem;
+    line-height: 20rem; } }
 
 /*# sourceMappingURL=style.css.map */
